@@ -1,0 +1,34 @@
+# Dependencies
+backend/uv.lock
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE/Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ruff cache
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+*.cover

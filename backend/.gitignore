@@ -1,0 +1,53 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build/Distribution
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Static/Media files (collected)
+staticfiles/
+mediafiles/
+
+# Testing/Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# IDE
+.idea/
+*.sw?
+
+# Logs
+*.log
+
+# mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
