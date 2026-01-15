@@ -1,19 +1,31 @@
-# Frontend - NewtonX Challenge
+# Frontend
 
-This is the React + Shadcn UI frontend for the Professional Profile Management system.
+React frontend for Professional Profile Management.
+
+## Tech Stack
+
+React 19 + Vite 7 + Tailwind CSS 4 + Shadcn/UI + React Hook Form + Zod
 
 ## Setup
 
-1. **Install dependencies**:
-    ```bash
-    npm install
-    ```
-2. **Run Development Server**:
-    ```bash
-    npm run dev
-    ```
+```bash
+npm install
+npm run dev  # http://localhost:5173
+```
+
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Development server |
+| `npm run build` | Production build |
+| `npm run lint` | ESLint |
 
 ## Features
-- **List View**: View professionals in a clean table.
-- **Filtering**: Filter by source (Direct, Partner, Internal).
-- **Creation**: Add new professionals via a modal form.
+
+- Paginated table (30 items/page)
+- Filter by source (Direct/Partner/Internal)
+- Create professionals via modal form
+- Responsive design
+
+Requires backend at http://localhost:8000.
