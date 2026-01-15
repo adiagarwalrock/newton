@@ -15,12 +15,11 @@ newton/
 │   ├── config/              # Django project settings
 │   ├── professionals/       # Main app (models, views, serializers)
 │   └── pyproject.toml
-├── frontend/                # React frontend application
-│   ├── src/
-│   │   ├── components/      # UI components
-│   │   └── lib/             # Utilities and API client
-│   └── package.json
-└── AGENTS.md
+└── frontend/                # React frontend application
+    ├── src/
+    │   ├── components/      # UI components
+    │   └── lib/             # Utilities and API client
+    └── package.json
 ```
 
 ## Getting Started
