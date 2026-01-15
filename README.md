@@ -49,6 +49,12 @@ cd backend && uv sync && uv run python manage.py migrate && uv run python manage
 
 Runs at http://localhost:8000
 
+> **Note**: A SQLite database is included with sample data. A superuser is pre-configured:
+> - **Username**: `admin`
+> - **Password**: `admin`
+> 
+> Access the admin panel at http://localhost:8000/admin
+
 ### 3. Start the Frontend (new terminal)
 
 ```bash
