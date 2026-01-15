@@ -28,30 +28,36 @@ newton/
 
 - Python 3.11+
 - Node.js 18+
-- `uv` (Python package manager)
 
-### Quick Start
+### 1. Install uv (Python package manager)
 
-1. **Backend**:
+```bash
+# macOS/Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
-   ```bash
-   cd backend
-   uv sync
-   uv run python manage.py migrate
-   uv run python manage.py runserver
-   ```
+# Windows
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
-   Backend runs at http://localhost:8000
+After installation, restart your terminal or run `source ~/.bashrc` (or equivalent).
 
-2. **Frontend**:
+### 2. Start the Backend
 
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
+```bash
+cd backend && uv sync && uv run python manage.py migrate && uv run python manage.py runserver
+```
 
-   Frontend runs at http://localhost:5173
+Runs at http://localhost:8000
+
+### 3. Start the Frontend (new terminal)
+
+```bash
+cd frontend && npm install && npm run dev
+```
+
+Runs at http://localhost:5173
+
+Open http://localhost:5173 in your browser to use the app.
 
 ## API Endpoints
 
